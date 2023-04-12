@@ -1,0 +1,7 @@
+NodeJS provides a lot of APIs to work with which help a lot in the applicaiton development process.
+
+We can read about them in official docs - https://nodejs.org/api/
+
+For example we can use readline module to read data from cli.
+
+We can also use fs module to write to a file or read data from a file.

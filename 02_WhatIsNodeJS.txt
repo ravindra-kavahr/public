@@ -1,0 +1,10 @@
+Official Definition is - NodeJS is a JavaScript(JS) runtime built on Chrome's V8 engine
+
+Every browser has a JS engine that executes our client-side code. 
+The speed of our code execution is influenced by the implementation of the engine.
+Chrome's V8 engine is one of the fastest engines. So using it was an obvious choice for building node.
+Usually, the V8 engine only has browser context. However, with NodeJS it changes.
+
+We can use the V8 engine with different contexts, which provides it access to the file system and all other services.
+
+Different system resources include memory, file system, IO, network, etc.

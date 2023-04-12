@@ -1,0 +1,5 @@
+REPL stands for Read, Evaluate, Print, and Loop.
+
+Whenever we enter node in our terminal(assuming it is installed and path variables are set) we enter REPL.
+
+Here we can try all the commands/write code which we can in a normal JS file which node will execute. This is a really nice playground for testing out different node features.

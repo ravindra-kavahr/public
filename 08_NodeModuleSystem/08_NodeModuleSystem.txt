@@ -1,0 +1,7 @@
+Node provides different modules to perform all kinds of operations
+
+We can create our own modules or use pre-built modules for various functionality.
+
+Every file is a kind of module in the node that can be imported using the "require" keyword. Below is an example
+
+const add = require("./08_add");

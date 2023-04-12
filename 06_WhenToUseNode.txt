@@ -1,0 +1,22 @@
+NodeJS shines in the below types of applications
+
+Non-blocking
+Event-driven
+Data-intensive
+I/O intensive
+
+NodeJS is single threaded. However, we can use asynchronous functions in JS. It maintains a queue from which we can pick up next operation.
+
+It has an event loop which is used to maintain a queue for determining which events can be executed next.
+
+In NodeJS whenever, there's a request call or I/O call it executes that tasks asynchronously and moves on to the next task in the queue. It cannot afford to wait for the task to complete and work with different thread because as we discussde previously it is single threaded.
+
+It uses callbacks to inform if the network or IO operations succeeded or maybe it throws an error.
+
+We know our application is single threaded. However, the libraries we call may or may not be single threaded like for hashing or different operations.
+
+NodeJS is not a good choice for below scenarios
+
+Data calculations
+Process intensive tasks
+Blocking operations

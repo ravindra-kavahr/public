@@ -1,0 +1,5 @@
+In the package.json file, we scripts section. In there we can specify the commands we want to execute using npm for example inside that property we may have one property as shown below 
+
+"start": "node index.js",
+
+Now, if we run npm start, it'll execute the node index.js command. However, if we have some custom key like myscript or anything we have to use npm run myscript and not just npm myscript. npm start & npm test work by default but our custom commands don't without adding run.

@@ -1,0 +1,5 @@
+Create a JS file and write node supported code
+
+run node file_name.js
+
+We will see the output in terminal now.

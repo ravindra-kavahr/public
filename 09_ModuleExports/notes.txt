@@ -1,0 +1,19 @@
+We can export and import our modules in NodeJS
+
+Below is the syntax to export a single method
+
+module.exports = methodName(or property)
+
+We can also export multiple properties using an object notation, below is an example
+
+module.exports = {
+ 	methodName1,
+	methodName2
+}
+
+We can achieve the same results with the below syntax as well. It's recommended syntax.
+
+module.exports.methodName1 = methodName1;
+module.exports.methodName2 = methodName2;
+
+We also have an alias for module.exports, which is just exports. However, when using exports directly we can't do exports = methodName, we have to do exports.methodName = methodName (Or function directly).

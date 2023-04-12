@@ -1,0 +1,13 @@
+npm stands for node packet manager
+
+Without npm, we can still use third-party modules. However, it would be  error-prone. 
+
+It provides many challenges like how to maintain the right versions, and how to share our project with the right dependencies with other developers.
+
+npm can greatly simiplify managing dependencies with appropriate versions.
+
+We have package.json file in node projects that contains all the data related to third party node modules that we may want to use in our project.
+
+npm is also a cli utility that can be used to download all the modules mentioned in package.json using below command.
+
+npm install (or "npm i" in short)

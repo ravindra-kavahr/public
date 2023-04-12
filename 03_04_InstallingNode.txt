@@ -1,0 +1,15 @@
+We can go to nodejs official website and use installer provided that. However, it's not as powerful and just restricts us to one version.
+
+In Ubuntu we can also try sudo apt install node
+
+Using nvm
+
+Install nvm
+
+We can use the below commands for installing and using different node versions
+
+nvm install 5.1 (This will install version 5.1 of the node)
+
+nvm use 6(This will switch the node version to version 6)
+
+nvm list (This will list all the available versions on our system).
